@@ -636,6 +636,14 @@ input, select, textarea {
 		}
 
 /* Image */
+	.profile {
+		border-radius: 50%;
+		width: 17.35rem;
+		height: 17.35rem;
+		position: relative;
+		display: flex;
+		overflow: hidden;
+	}
 
 	.image {
 		border-radius: 4px;
@@ -1291,8 +1299,8 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
+			width: 17.5rem;
+			height: 17.5rem;
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
